@@ -1,7 +1,7 @@
 ﻿// Program 2
-// CIS 199-XX
+// CIS 199-50
 // Due: 3/5/2020
-// By: Andrew L. Wright (Students use Grading ID)
+// By: Jacob Puentes
 
 // This application calculates the marginal tax rate and
 // tax due for various candidates' tex plans.
@@ -25,12 +25,9 @@ namespace Prog2
             InitializeComponent();
         }
 
-        // User has clicked the Calculate Tax button
-        // Will calculate and display their marginal tax rate and tax due
         private void calcTaxBtn_Click(object sender, EventArgs e)
         {
             // The marginal tax rates
-            // Baseline
             const decimal BASE_RATE1 = .10m; // 1st tax rate (LOWEST)
             const decimal BASE_RATE2 = .12m; // 2nd tax rate
             const decimal BASE_RATE3 = .22m; // 3rd tax rate
@@ -61,7 +58,6 @@ namespace Prog2
             const decimal C2_RATE10 = .52m; // 10th tax rate (HIGHEST)
 
             // Taxable income thresholds for each candidate
-            // Baseline
             const int BASE_THRESH1 = 9_700;   // 1st baseline threshold (LOWEST)
             const int BASE_THRESH2 = 39_475;  // 2nd baseline threshold
             const int BASE_THRESH3 = 84_200;  // 3rd baseline threshold
@@ -96,34 +92,34 @@ namespace Prog2
             int income; // Filer's taxable income (input)
 
             // Income rates that apply to this filer
-            decimal rate1 = 0;  // Tax rate 1
-            decimal rate2 = 0;  // Tax rate 2
-            decimal rate3 = 0;  // Tax rate 3
-            decimal rate4 = 0;  // Tax rate 4
-            decimal rate5 = 0;  // Tax rate 5
-            decimal rate6 = 0;  // Tax rate 6
-            decimal rate7 = 0;  // Tax rate 7
-            decimal rate8 = 0;  // Tax rate 8
-            decimal rate9 = 0;  // Tax rate 9
-            decimal rate10 = 0; // Tax rate 10
+            decimal rate1 = 0;  
+            decimal rate2 = 0;  
+            decimal rate3 = 0;  
+            decimal rate4 = 0;  
+            decimal rate5 = 0; 
+            decimal rate6 = 0;  
+            decimal rate7 = 0;  
+            decimal rate8 = 0;  
+            decimal rate9 = 0;  
+            decimal rate10 = 0;
 
             // Income threshold values that apply to this filer
-            int threshold1 = int.MaxValue; // 1st income threshold
-            int threshold2 = int.MaxValue; // 2nd income threshold
-            int threshold3 = int.MaxValue; // 3rd income threshold
-            int threshold4 = int.MaxValue; // 4th income threshold
-            int threshold5 = int.MaxValue; // 5th income threshold
-            int threshold6 = int.MaxValue; // 6th income threshold
-            int threshold7 = int.MaxValue; // 7th income threshold
-            int threshold8 = int.MaxValue; // 8th income threshold
-            int threshold9 = int.MaxValue; // 9th income threshold
+            int threshold1 = int.MaxValue; 
+            int threshold2 = int.MaxValue; 
+            int threshold3 = int.MaxValue; 
+            int threshold4 = int.MaxValue; 
+            int threshold5 = int.MaxValue; 
+            int threshold6 = int.MaxValue; 
+            int threshold7 = int.MaxValue; 
+            int threshold8 = int.MaxValue; 
+            int threshold9 = int.MaxValue; 
 
-            decimal marginalRate; // Filer's calculated marginal tax rate
-            decimal tax;          // Filer's calculated income tax due
+            decimal marginalRate;
+            decimal tax;         
 
             if (int.TryParse(incomeTxt.Text, out income) && income >= 0)
             {
-                // Which rates/thresholds apply to this filer?
+              
                 if (baselineRdoBtn.Checked) // Baseline?
                 {
                     rate1 = BASE_RATE1;
@@ -269,7 +265,7 @@ namespace Prog2
                     tax = (income - 0) * rate1;
                 }
 
-                // Special Circumstances for Candidate 2
+                
                 if (candidate2RdoBtn.Checked) // Additional for Candidate 2
                 {
                     if (income > C2_EXTRA_THRESH) // Surtax applies
