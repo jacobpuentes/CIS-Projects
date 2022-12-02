@@ -28,22 +28,22 @@ namespace Prog1
 
         private void calcEstimateBtn_Click(object sender, EventArgs e)
         {
-            const double FIRST_RM_FEE = 75.0;      // Fee for first room install
-            const double LABOR_COST_PER_YD = 4.25; // Labor cost per sq. yard
-            const double PAD_COST_PER_YD = 2.5;    // Padding cost per sq. yard
-            const double SQ_FT_PER_YD = 9.0;       // Sq. feet per sq. yard
-            const double WASTE_RATE = 0.1;         // % extra included for material waste
+            const double FIRST_RM_FEE = 75.0;      
+            const double LABOR_COST_PER_YD = 4.25; 
+            const double PAD_COST_PER_YD = 2.5;    
+            const double SQ_FT_PER_YD = 9.0;       
+            const double WASTE_RATE = 0.1;         
 
-            double width;       // Room width (in feet)
-            double length;      // Room length (in feet)
-            double pricePerYd;  // Price of carpet (per sq. yard)
-            int paddingLayers;  // # of padding layers (1 or 2)
-            int firstRoom;      // First room? 1 = YES, 0 = NO
-            double sqYards;     // Sq. yards of carpet/padding 
-            double carpetCost;  // Cost of carpet
-            double paddingCost; // Cost of padding
-            double laborCost;   // Cost of labor
-            double totalCost;   // Total cost of the carpet estimate
+            double width;       
+            double length;     
+            double pricePerYd;  
+            int paddingLayers;  
+            int firstRoom;      
+            double sqYards;      
+            double carpetCost;  
+            double paddingCost; 
+            double laborCost;   r
+            double totalCost;   
 
             // Gather input
             width = double.Parse(widthTxt.Text);
