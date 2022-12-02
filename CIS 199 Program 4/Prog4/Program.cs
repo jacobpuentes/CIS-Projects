@@ -1,7 +1,7 @@
 ﻿// Program 4
 // CIS 199-XX
 // Due: 4/20/2020
-// By: Andrew L. Wright (Students use Grading ID)
+// By: Jacob Puentes
 
 // File: Program.cs
 // This file creates a simple test application class that creates
@@ -18,23 +18,21 @@ namespace Prog4
 {
     public class Program
     {
-        // Precondition:  None
-        // Postcondition: The packages have been printed to the console
+        
         public static void DisplayPackages(GroundPackage[] packages)
         {
             foreach (GroundPackage package in packages)
             {
-                WriteLine($"{package}"); // Implicit call to .ToString()
+                WriteLine($"{package}");
                 WriteLine($"Cost: {package.CalcCost():C}");
-                WriteLine("----------"); // Separator
+                WriteLine("----------");
             }
         }
 
-        // Precondition:  None
-        // Postcondition: The GroundPackage class has been tested
+      
         public static void Main(string[] args)
         {
-            // Test data - Magic #s are OK here
+           
             GroundPackage p1 = new GroundPackage(40208, 00123, 12.5, 9.0, 4.0, 3.7);    // 1st GroundPackage
             GroundPackage p2 = new GroundPackage(91653, 47130, 10.0, 7.5, 5.1, 2.2);    // 2nd GroundPackage
             GroundPackage p3 = new GroundPackage(12345, 54321, 15.0, 15.0, 5.0, 7.5);   // 3rd GroundPackage
@@ -47,7 +45,7 @@ namespace Prog4
             WriteLine("Original Packages:");
             DisplayPackages(thePackages);
 
-            // Make some changes
+            
             p1.Length = 5.5;
             p2.OriginZip = 33128;
             p3.Width = 10.0;
