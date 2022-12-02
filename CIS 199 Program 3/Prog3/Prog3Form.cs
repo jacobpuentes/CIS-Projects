@@ -6,9 +6,6 @@
 // This application calculates the marginal tax rate
 // for various candidates' tex plans.
 
-// Version 1
-// Uses lower limits for the thresholds arrays.
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,45 +31,44 @@ namespace Prog3
         {
             // The marginal tax rates
             // Baseline
-            const decimal BASE_RATE1 = .10m; // 1st tax rate (LOWEST)
-            const decimal BASE_RATE2 = .12m; // 2nd tax rate
-            const decimal BASE_RATE3 = .22m; // 3rd tax rate
-            const decimal BASE_RATE4 = .24m; // 4th tax rate
-            const decimal BASE_RATE5 = .32m; // 5th tax rate
-            const decimal BASE_RATE6 = .35m; // 6th tax rate
-            const decimal BASE_RATE7 = .37m; // 7th tax rate (HIGHEST)
+            const decimal BASE_RATE1 = .10m; 
+            const decimal BASE_RATE2 = .12m; 
+            const decimal BASE_RATE3 = .22m; 
+            const decimal BASE_RATE4 = .24m; 
+            const decimal BASE_RATE5 = .32m; 
+            const decimal BASE_RATE6 = .35m; 
+            const decimal BASE_RATE7 = .37m; 
 
             // Candidate 2
-            const decimal C2_RATE1 = .10m;  // 1st tax rate (LOWEST)
-            const decimal C2_RATE2 = .12m;  // 2nd tax rate
-            const decimal C2_RATE3 = .22m;  // 3rd tax rate
-            const decimal C2_RATE4 = .24m;  // 4th tax rate
-            const decimal C2_RATE5 = .32m;  // 5th tax rate
-            const decimal C2_RATE6 = .35m;  // 6th tax rate
-            const decimal C2_RATE7 = .40m;  // 7th tax rate
-            const decimal C2_RATE8 = .45m;  // 8th tax rate
-            const decimal C2_RATE9 = .50m;  // 9th tax rate
-            const decimal C2_RATE10 = .52m; // 10th tax rate (HIGHEST)
-
+            const decimal C2_RATE1 = .10m;  
+            const decimal C2_RATE2 = .12m;  
+            const decimal C2_RATE3 = .22m;  
+            const decimal C2_RATE4 = .24m;  
+            const decimal C2_RATE5 = .32m; 
+            const decimal C2_RATE6 = .35m; 
+            const decimal C2_RATE7 = .40m;  
+            const decimal C2_RATE8 = .45m;  
+            const decimal C2_RATE9 = .50m;  
+            const decimal C2_RATE10 = .52m; 
+            
             // Taxable income thresholds for each candidate
-            // Baseline
-            const int BASE_THRESH1 = 9_700;   // 1st baseline threshold (LOWEST)
-            const int BASE_THRESH2 = 39_475;  // 2nd baseline threshold
-            const int BASE_THRESH3 = 84_200;  // 3rd baseline threshold
-            const int BASE_THRESH4 = 160_725; // 4th baseline threshold
-            const int BASE_THRESH5 = 204_100; // 5th baseline threshold
-            const int BASE_THRESH6 = 510_300; // 6th baseline threshold (HIGHEST)
+            const int BASE_THRESH1 = 9_700;   
+            const int BASE_THRESH2 = 39_475;  
+            const int BASE_THRESH3 = 84_200;  
+            const int BASE_THRESH4 = 160_725; 
+            const int BASE_THRESH5 = 204_100; 
+            const int BASE_THRESH6 = 510_300; 
 
             // Candidate 2
-            const int C2_THRESH1 = 9_525;     // 1st threshold (LOWEST)
-            const int C2_THRESH2 = 38_700;    // 2nd threshold
-            const int C2_THRESH3 = 82_500;    // 3rd threshold
-            const int C2_THRESH4 = 157_500;   // 4th threshold
-            const int C2_THRESH5 = 200_000;   // 5th threshold
-            const int C2_THRESH6 = 250_000;   // 6th threshold
-            const int C2_THRESH7 = 500_000;   // 7th threshold
-            const int C2_THRESH8 = 2_000_000;  // 8th threshold
-            const int C2_THRESH9 = 10_000_000; // 9th threshold (HIGHEST)
+            const int C2_THRESH1 = 9_525;    
+            const int C2_THRESH2 = 38_700;   
+            const int C2_THRESH3 = 82_500;    
+            const int C2_THRESH4 = 157_500;   
+            const int C2_THRESH5 = 200_000;  
+            const int C2_THRESH6 = 250_000;  
+            const int C2_THRESH7 = 500_000;   
+            const int C2_THRESH8 = 2_000_000;  
+            const int C2_THRESH9 = 10_000_000;
 
             int income; // Filer's taxable income (input)
 
@@ -89,30 +85,30 @@ namespace Prog3
             decimal[] c2Rates = { C2_RATE1, C2_RATE2, C2_RATE3, C2_RATE4, C2_RATE5, C2_RATE6,
                 C2_RATE7, C2_RATE8, C2_RATE9, C2_RATE10 };
 
-            int[] thresholds; // Refers to selected array of income thresholds
-            decimal[] rates;  // Refers to selected array of marginal rates
+            int[] thresholds; 
+            decimal[] rates;  
 
-            int index;  // Array subscript for range match search
-            bool found; // Found matching income bracket?
+            int index;  
+            bool found; 
 
-            decimal marginalRate = 0; // Filer's calculated marginal tax rate
-
+            decimal marginalRate = 0; 
+            
             if (int.TryParse(incomeTxt.Text, out income) && income >= 0)
             {
-                // Which rates/thresholds apply to this filer?
-                if (baselineRdoBtn.Checked) // Baseline?
+                
+                if (baselineRdoBtn.Checked) 
                 {
                     thresholds = baseThresholds;
                     rates = baseRates;
                 }
-                else // Must be Candidate 2
+                else // 
                 {
                     thresholds = c2Thresholds;
                     rates = c2Rates;
                 }
 
                 // Calculate income tax due and find their marginal rate
-                index = thresholds.Length - 1; // Start from the end since lower limits
+                index = thresholds.Length - 1; 
                 found = false;
 
                 while (index >= 0 && !found)
