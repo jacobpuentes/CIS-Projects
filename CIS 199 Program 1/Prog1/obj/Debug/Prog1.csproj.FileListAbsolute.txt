@@ -1,0 +1,30 @@
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.exe.config
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.pdb
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.csprojAssemblyReference.cache
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.Prog1Form.resources
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.Properties.Resources.resources
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.csproj.GenerateResource.cache
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.csproj.CoreCompileInputs.cache
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_19S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.pdb
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.exe.config
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\bin\Debug\Prog1.pdb
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.csprojAssemblyReference.cache
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.Prog1Form.resources
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.Properties.Resources.resources
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.csproj.GenerateResource.cache
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS199v2\CIS199_20S\Progs\Prog1\Prog1-GUI\Prog1\obj\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\bin\Debug\Prog1.exe.config
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\bin\Debug\Prog1.exe
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\bin\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.csproj.AssemblyReference.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.csproj.SuggestedBindingRedirects.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.Prog1Form.resources
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.Properties.Resources.resources
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.csproj.GenerateResource.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.csproj.CoreCompileInputs.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.exe
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 199\CIS 199 Program 1\Prog1\obj\Debug\Prog1.pdb
