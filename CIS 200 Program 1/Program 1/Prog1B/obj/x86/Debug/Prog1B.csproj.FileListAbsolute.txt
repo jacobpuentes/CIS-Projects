@@ -1,0 +1,22 @@
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\bin\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\bin\Debug\Prog1.pdb
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\obj\x86\Debug\Prog1B.csprojAssemblyReference.cache
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\obj\x86\Debug\Prog1B.csproj.CoreCompileInputs.cache
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\obj\x86\Debug\Prog1.exe
+C:\Users\alwrig01\Documents\Teaching\CIS200\CIS200_20F\Progs\Prog1B\Prog1B\obj\x86\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\bin\Debug\Prog1.exe.config
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\bin\Debug\Prog1.exe
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\bin\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\obj\x86\Debug\Prog1B.csproj.AssemblyReference.cache
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\obj\x86\Debug\Prog1B.csproj.SuggestedBindingRedirects.cache
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\obj\x86\Debug\Prog1B.csproj.CoreCompileInputs.cache
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\obj\x86\Debug\Prog1.exe
+C:\Users\bigti\Desktop\GITHUB Portfolio\CIS 200\Prog1B\Prog1B\obj\x86\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\obj\x86\Debug\Prog1B.csproj.AssemblyReference.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\obj\x86\Debug\Prog1B.csproj.SuggestedBindingRedirects.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\obj\x86\Debug\Prog1B.csproj.CoreCompileInputs.cache
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\obj\x86\Debug\Prog1.exe
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\obj\x86\Debug\Prog1.pdb
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\bin\Debug\Prog1.exe.config
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\bin\Debug\Prog1.exe
+C:\Users\bigti\Desktop\2022-2023 School\GITHUB Portfolio\CIS 200\CIS 200 Program 1\Program 1\Prog1B\bin\Debug\Prog1.pdb
